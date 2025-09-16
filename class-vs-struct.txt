@@ -1,7 +1,7 @@
 five key differences between structs and classes:
 
-Classes don’t come with a memberwise initializer; structs get these by default.
-Classes can use inheritance to build up functionality; structs cannot.
-If you copy a class, both copies point to the same data; copies of structs are always unique.
-Classes can have deinitializers; structs cannot.
-You can change variable properties inside constant classes; properties inside constant structs are fixed regardless of whether the properties are constants or variables.
+1- Classes don’t come with a memberwise initializer; structs get these by default.
+2- Classes can use inheritance to build up functionality; structs cannot.
+3- If you copy a class, both copies point to the same data; copies of structs are always unique.
+4- Classes can have deinitializers; structs cannot.
+5- You can change variable properties inside constant classes; properties inside constant structs are fixed regardless of whether the properties are constants or variables.
